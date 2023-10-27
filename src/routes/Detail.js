@@ -22,6 +22,7 @@ function Detail() {
                     id={movie.id} 
                     coverImg={movie.medium_cover_image}
                     title={movie.title}
+                    year={movie.year}
                     summary={movie.summary}
                     genres={movie.genres}
                 /> 
